@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+        font-size: 10px; 
+        font-family: 'lexend Deca','sans-srief';
+    }
+
+    #main{
+        display: flex;
+        width: 100%;
+          height: 100%; 
+        
+    }
+
+    #left{
+        position: relative;
+        width: 40%;
+        height: 100%;
+        /* background-color: azure; */
+    }
+    #lnav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 20px 20px;
+    }
+    #lnav i{
+        font-size: 1.5rem;
+    }
+    #lnav-r a{
+        margin-left:20px;
+        color: black;
+        font-size:1.5rem;
+        text-decoration: none;
+    }
+    #lnav-r i{
+       
+        color: blue;
+    }
+
+    #left #textcenter{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #textcenter h1{
+        font-size: 9rem;
+        font-weight: 900;
+    }
+    #textcenter p{
+        opacity: .5;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #textcenter a{
+        text-decoration: none;
+        color: black;
+        border-bottom: 1px solid black;
+        padding-bottom: 5px;
+        font-size: 13px;
+        font-weight: 600;
+        opacity: .5;
+    }
+    #right{
+        width: 60%;
+        height: 100%;
+        /* background-color: blueviolet; */
+    }
+    #r_top{
+        display: flex;
+        width: 100%;
+        height: 50%;
+        background-color: royalblue;
+    }
+    #r_bottom{
+        width: 100%;
+        height: 50%;
+        background-image:url('https://media.istockphoto.com/id/1314957407/photo/lots-of-fresh-ripe-peeled-oranges-good-source-of-vitamin-c-immunity-booster-fruit.jpg?s=612x612&w=0&k=20&c=XbIpf7BEgkRpamIOZwJ4bVAB0fT4ZWM99H6G84qlel4=');
+        background-size: cover;
+        background-position: center;
+    }
+    #rtop-left{
+        width:50%;
+        height: 100%;
+        background-image:url('https://media.istockphoto.com/id/904459526/photo/oranges-are-here-to-brighten-up-the-day.jpg?s=612x612&w=0&k=20&c=qhRVYrnSWGB3dBlCLtJXpNrIEQYPcDysxROUNuqbEDY=');
+        background-position: center;
+        background-size: cover;
+    }
+    #rtop-right{
+        width: 55%;
+        height: 100%;
+        background-image:url('https://media.istockphoto.com/id/1142847813/photo/fresh-oranges-on-black-background-sliced-orange-water-pouring-on-fruits.jpg?s=612x612&w=0&k=20&c=adDVM8xt3Fp_LDLvvFBuO9DurpcVHtpl0H-AmsSNBjI=');
+        background-position: center;
+        background-size: cover;
+    }

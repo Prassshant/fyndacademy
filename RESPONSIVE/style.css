@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    font-family: 'lexend Deca','sans-srief';
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+}
+.ul{
+    display: flex;
+ gap: 2rem;
+/* align-items: center; */
+list-style: none;
+
+}
+ 
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: brown;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+.hero-section{
+    height: 65vh;
+    background-image:url(/RESPONSIVE/images/hero.2.jpg);
+    background-position: center;
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-heading{
+    font-size: 5rem;
+}
+.sub-heading{
+    font-size: 3.2rem;
+}
+.buy,.learn{
+    padding: 1.5rem 2.5rem;
+    font-size: 1.6rem;
+    border: none;background-color: #212529;
+    color: white;
+    font-weight: 800;
+    border-radius: 0.5rem;
+}
+.learn{
+    background-color: white;
+    color: #212529;
+}
+ .hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}
+
+.gallery-img{
+    width: 100%;
+}
+.gallery-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    padding: 5rem;
+}
+.gallery{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+.quality-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+    max-width: 120rem;
+   
+    gap: 1.1rem;
+    margin: 0 auto;
+}
+.quality-item{
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 30rem;
+    height: 30rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    gap: 2rem;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+.section-heading{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+.contact-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   
+    max-width: 100rem;
+    /* max-height: 100rem; */
+    margin: 0 auto;
+  
+    grid-auto-rows: 5rem;
+    gap: 2rem 4rem;
+}
+.email,.message,.first-name,.send-button {
+    grid-column-start: span 2;
+}
+#email,#message, #first-name, #send-button{
+    grid-column-start:  span 2;
+}
+.message{
+    grid-row-end: span 2;
+}
+form > input{
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    padding: 1rem;
+}
+.send-button{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+    background: #212529;
+}
+footer{
+    margin: 10rem 5rem;
+}
+
+
+.heading-faq {
+    font-size: 6rem;
+    margin-bottom:4rem;
+    text-align:center;
+}
+details{
+    font-size: 2.2rem;
+    margin-bottom: 3rem ;
+}
+details p{
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    line-height: 1.5;
+}
+.faq{
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 3rem;
+
+}
+summary{
+    font-weight: 700;
+}
+summary:hover{
+    cursor: pointer;
+}
+details[open] summary{
+    color: rgba(201, 133, 31, 0.621);
+}
+details[open] p{
+    background-color: rgba(52, 158, 207, 0.235);
+}
